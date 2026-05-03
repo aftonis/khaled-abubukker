@@ -1,7 +1,7 @@
 # 🛰️ AIOps Enabled Secure IoT & Electronics Monitoring System
 
 [![CI/CD](https://github.com/aftonis/khaled-abubukker/actions/workflows/ci.yml/badge.svg)](https://github.com/aftonis/khaled-abubukker/actions)
-[![Docker Hub](https://img.shields.io/docker/v/aftonis/aiops-iot-monitoring?label=Docker%20Hub)](https://hub.docker.com/r/aftonis/aiops-iot-monitoring)
+[![Docker Hub](https://img.shields.io/docker/v/abubukker/aiops-iot-monitoring?label=Docker%20Hub)](https://hub.docker.com/r/abubukker/aiops-iot-monitoring)
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
@@ -123,8 +123,8 @@ pytest tests/unit tests/integration -v
 
 ### Docker Hub (backend image — free)
 ```bash
-docker build -t aftonis/aiops-iot-monitoring .
-docker push aftonis/aiops-iot-monitoring
+docker build -t abubukker/aiops-iot-monitoring .
+docker push abubukker/aiops-iot-monitoring
 ```
 GitHub Actions does this automatically on push to `main`.
 

@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 env:
-  DOCKER_IMAGE: aftonis/aiops-iot-monitoring
+  DOCKER_IMAGE: abubukker/aiops-iot-monitoring
   PYTHON_VERSION: "3.11"
 
 jobs:
